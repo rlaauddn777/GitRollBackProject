@@ -45,7 +45,7 @@ public class Main {
 			List<String> list=gdl.DetailLinkData();
 			
 			//Document doc = (Document) Jsoup.connect("https://www.mypetplus.co.kr"+gdl.DetailLinkData()).get();
-			for(int i=0; i<66; i++)
+			for(int i=0; i<11; i++)
 	        {
 				Document doc = (Document) Jsoup.connect("https://www.mypetplus.co.kr"+list.get(i)).get();
 				Elements name=doc.select("h2.tit");
